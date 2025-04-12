@@ -1,4 +1,5 @@
 import numpy as np
+
 def peces_vivos(locs, weights):
     #Posiciones como tuplas para usarlas como claves
     posiciones = [tuple(pos) for pos in locs]

@@ -1,4 +1,5 @@
 import numpy as np
+
 def arreglo():
     arr = np.zeros((10, 10, 10), dtype=int)
 
