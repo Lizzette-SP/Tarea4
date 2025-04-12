@@ -3,7 +3,7 @@ import numpy as np
 def remplazar_puntajes(puntajes):
     #Máscara para valores < 60
     mascara = puntajes < 60
-    # índices de los primeros 3 True en la máscara
+    # índices de los primeros 3 True
     first_three = np.where(mascara)[0][:3]
 
     result = puntajes.copy() #conservar el original
